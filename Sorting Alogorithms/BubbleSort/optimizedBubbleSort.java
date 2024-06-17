@@ -1,3 +1,5 @@
+package BubbleSort;
+
 public class optimizedBubbleSort {
     public static void main(String[] args) {
         int array[] = { 4, 3, 5, 6, 8 };

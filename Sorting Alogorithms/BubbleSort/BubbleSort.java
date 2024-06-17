@@ -1,4 +1,5 @@
-public class BS {
+package BubbleSort;
+public class BubbleSort {
     public static void main(String[] args) {
         int array[] = {5, 3, 8, 6, 4};
 
