@@ -135,6 +135,12 @@ public class BSTApplication {
 		System.out.println("Inserted 25 and 28");
 		bst.traversal("Pre");
 		System.out.println("Tree is unbalanced to left - Dog leg detected.");
+		bst.search(30).left = bst.leftRotate(bst.search(25));
+		System.out.println("Rotated around 25 anticlockwise");
+		bst.traversal("Pre");
+		bst.search(40).left = bst.rightRotate(bst.search(30));
+		bst.traversal("Pre"	);
+		System.out.println("Tree is balanced");
 
 	}
 
