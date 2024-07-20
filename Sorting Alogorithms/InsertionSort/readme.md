@@ -20,7 +20,7 @@ The `main` method demonstrates the use of the `insertionSort` method by sorting 
 
 ## Usage
 
-To run the code, compile the `InsertionSort.java` file and run the `main` method. The sample array is hardcoded in the `main` method, but you can modify it to sort a different array.
+To run the code, compile the `InsertionSort.java` file and run the `main` method. The sample array is hardcoded in the `main` method, but can modify it to sort a different array.
 
 ```java
 int[] arr = {12, 11, 13, 5, 6}; // Modify this line to sort a different array

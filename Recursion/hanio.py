@@ -24,3 +24,6 @@ def hanoiPuzzlef(n):
     print(f"This is the Hanio {hanoi(n, 'A', 'C', 'B')} with {n} disks")
 
 hanoiPuzzlef(5)
+
+
+
