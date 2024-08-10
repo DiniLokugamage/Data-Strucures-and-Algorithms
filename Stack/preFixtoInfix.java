@@ -27,7 +27,7 @@ class PrefixToInfixConverter {
             if (isOperator(c)) {
                 // Check if the stack has enough operands
                 if (stack.size() < 2) {
-                    return "Invalid Prefix Expression"; // Handle stack underflow
+                    return "Invalid Prefix Expression"; 
                 }
                 
                 String op1 = stack.pop();
